@@ -141,7 +141,7 @@ async function run() {
         console.log("Available commands: node filename.js list");
         console.log("node filename.js delete [id]");
         console.log(
-          'node filename.js node dbfnfgp.js add name ["value"] age [value] type [value] role [value] gen [value] night [value] danger [value] notes ["value"]',
+          'node filename.js add name ["value"] age [value] type [value] role [value] gen [value] night [value] danger [value] notes ["value"]',
         );
     }
   } catch (err) {
@@ -152,3 +152,4 @@ async function run() {
 }
 
 run();
+
